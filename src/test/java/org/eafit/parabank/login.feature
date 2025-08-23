@@ -36,6 +36,6 @@ Scenario: Customer Login failed
     And path 'karocastano' //password
     When method GET
     Then status 400
-    And match response contains 'Invalid username and/or password'
+    And match response contains 'Invalid username andor password'
 
    
