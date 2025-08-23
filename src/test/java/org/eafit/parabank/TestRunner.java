@@ -1,4 +1,4 @@
-package org.udea.parabank;
+package org.eafit.parabank;
 
 import com.intuit.karate.junit5.Karate;
 
