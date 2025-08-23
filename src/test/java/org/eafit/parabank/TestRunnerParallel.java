@@ -18,7 +18,7 @@ class TestRunnerParallel {
 
     @Test
     void testParallel() {
-        Results results = Runner.path("classpath:org/udea/parabank")
+        Results results = Runner.path("classpath:org/eafit/parabank")
                 .tags("~@ignore")
                 .outputCucumberJson(true)
                 .parallel(5);
