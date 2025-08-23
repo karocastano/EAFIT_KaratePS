@@ -16,7 +16,7 @@ Feature: Login to Parabank
     {
        "id": '#number',
        "firstName": '#string',
-       "lastName": '#string',
+       "lastName.": '#string',
        "address": {
             "street": '#string',
             "city": '#string',
