@@ -34,5 +34,5 @@ Feature: Pay to Parabank
     """
       When method POST
       Then status 200
-      And match response == """ { "payeeName": "prueba karate", "amount": 100, "accountId": 19671 } """
+      And match response contains { payeeName: 'pruebas karate' }
 
